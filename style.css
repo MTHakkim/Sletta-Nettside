@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(103, 72, 24);
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.nav-links {
+    color: white;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-center {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: white;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
